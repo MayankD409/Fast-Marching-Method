@@ -28,8 +28,8 @@ class PurePursuitController(Node):
 
         self.lookahead_distance = lookahead_distance
 
-        self.max_linear_velocity = 0.26  # Tweak
-        self.max_angular_velocity = 1.0 # Tweak
+        self.max_linear_velocity = 1.1  # Tweak
+        self.max_angular_velocity = 3.0 # Tweak
 
         self.sub_vel = self.create_subscription(
             Odometry,
@@ -116,7 +116,7 @@ class PurePursuitController(Node):
         angle_penalty = max(0, 1 - 2 * abs(angle_difference) / math.pi)
         linear_velocity = min(self.max_linear_velocity * angle_penalty, distance_to_goal)
         # linear_velocity = min(self.max_linear_velocity, distance_to_goal)
-        angular_velocity = 3 * angle_difference  # Tweak
+        angular_velocity = 2.5 * angle_difference  # Tweak
 
         velocity_msg = Twist()
         velocity_msg.linear.x = linear_velocity
