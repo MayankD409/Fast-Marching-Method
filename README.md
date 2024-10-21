@@ -1,6 +1,6 @@
 # Fast Marching Method Planner for TurtleBot3 Waffle Robot using ROS2 and Python3
 
-![Fast Marching Method Planner](image.png)
+![Fast Marching Method Planner](misc/image.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -50,7 +50,7 @@ This project implements the **Fast Marching Method (FMM)** for path planning on 
 
 To see the Fast Marching Method Planner in action, watch the following demo video:
 
-![Demo Video](Recording.mp4)
+![Demo Video](misc/gazebo.gif)
 
 ## Installation
 
