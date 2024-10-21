@@ -46,6 +46,12 @@ This project implements the **Fast Marching Method (FMM)** for path planning on 
 4. **Path Execution**: The planned path is sent to the TurtleBot3 for navigation.
 5. **Visualization**: Gazebo displays the robot, planned path, and environmental data for monitoring.
 
+## Demo Video
+
+To see the Fast Marching Method Planner in action, watch the following demo video:
+
+![Demo Video](recording.mp4)
+
 ## Installation
 
 ### Prerequisites
