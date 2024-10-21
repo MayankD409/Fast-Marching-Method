@@ -50,7 +50,7 @@ This project implements the **Fast Marching Method (FMM)** for path planning on 
 
 To see the Fast Marching Method Planner in action, watch the following demo video:
 
-![Demo Video](recording.mp4)
+![Demo Video](Recording.mp4)
 
 ## Installation
 
